@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { Todo } from '../types/todo';
 
-const API = 'http://localhost:3001/api/todos';
+const API = 'https://todo-app-backend.onrender.com/api/todos';
 
 export function useTodos() {
   const [todos, setTodos] = useState<Todo[]>([]);
